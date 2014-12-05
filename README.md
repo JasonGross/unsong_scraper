@@ -32,3 +32,7 @@ ruby worm_scraper.rb > worm.html
 ```command
 ebook-convert worm.html worm.mobi
 ```
+
+#TODO
+
+* Create proper chapter links
