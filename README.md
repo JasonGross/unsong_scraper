@@ -27,12 +27,8 @@ gem install nokogiri
 ruby worm_scraper.rb > worm.html
 ```
 
-4. Convert with Calibre (requires install)
+4. Convert (requires Calibre CLI)
 
 ```command
-ebook-convert worm.html worm.mobi
+ebook-convert worm.html worm.mobi --authors "John McCrae" --title "Worm"
 ```
-
-#TODO
-
-* Create proper chapter links
