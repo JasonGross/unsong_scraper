@@ -8,7 +8,7 @@ I couldn't find a good ebook/kindle version of worm, the fantastic web serial by
 
 ##Download
 
-Download in the format of your choice or run it yourself.
+Download the ebook or run the scraper yourself.
 
 ##How to run:
 
@@ -30,5 +30,5 @@ ruby worm_scraper.rb > worm.html
 4. Convert (requires Calibre CLI)
 
 ```command
-ebook-convert worm.html worm.mobi --authors "John McCrae" --title "Worm"
+ebook-convert worm.html worm.mobi --authors "John McCrae" --title "Worm" --max-toc-links 500
 ```
