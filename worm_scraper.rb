@@ -3,8 +3,7 @@ require 'open-uri'
 require 'uri'
 
 #set to first chapter
-@next_chapter = 'http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-1-gestation/1-01/'
-
+@next_chapter = 'https://parahumans.wordpress.com/category/stories-arcs-1-10/arc-1-gestation/1-01/'
 @toc = "<h1>Table of Contents</h1>"
 @book_body = ""
 @index = 1
