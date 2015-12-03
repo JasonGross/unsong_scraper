@@ -15,6 +15,9 @@ while @next_chapter
   if @next_chapter.to_s.include?("½")
     @next_chapter = URI.escape(@next_chapter)
   end
+  if @next_chapter.to_s.start_with?("//")
+    @next_chapter = "https:" + @next_chapter
+  end
   doc = Nokogiri::HTML(open(@next_chapter))
   #get
   @chapter_title = doc.css('h1.entry-title').first #html formatted
