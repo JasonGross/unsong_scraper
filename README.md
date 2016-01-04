@@ -1,10 +1,8 @@
-#Worm Web Serial Scraper for Kindle
+#Unsong Web Serial Scraper for Kindle
 
-I couldn't find a good ebook/kindle version of worm, the fantastic web serial by wildbow (John McCrae), so I decided to make one. You can now enjoy worm without all of the eye strain! Until wildbow gets this thing published, this is the next best option.
+I adapted a [Worm Web Serial scaper](https://github.com/rhelsing/worm_scraper) to make a ebook/kindle version of Unsong, by Scott Alexander. You can now enjoy Unsong without all of the eye strain!
 
-[Please support the author!](https://parahumans.wordpress.com/support/)
-
-![Worm Header](http://parahumans.files.wordpress.com/2011/06/cityscape2.jpg)
+![Unsong Header](http://i.imgur.com/d9LvKMc.png)
 
 ##Download
 
@@ -24,11 +22,11 @@ gem install nokogiri
 3. Run the script and output into html file
 
 ```command
-ruby worm_scraper.rb > worm.html
+ruby unsong_scraper.rb > unsong.html
 ```
 
 4. Convert (requires Calibre CLI)
 
 ```command
-ebook-convert worm.html worm.mobi --authors "John McCrae" --title "Worm" --max-toc-links 500
+ebook-convert unsong.html unsong.mobi --authors "Scott Alexander" --title "Unsong" --max-toc-links 500
 ```
