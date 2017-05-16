@@ -35,12 +35,6 @@ toc_page.css('a').each do |link|
   @book_body << @chapter_content
   @toc << "<a href=\"#chap#{@index.to_s}\">#{@chapter_title_plain}</a><br>"
   @index += 1
-  #next
-  @next_chapter = if doc.css('div.pjgm-navigation div a').last.content.to_s.include?("→")
-                    doc.css('div.pjgm-navigation div a').last['href']
-                  else
-                    false
-                  end
 end
 
 $stderr.puts "Writing Book..."
