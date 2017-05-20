@@ -8,6 +8,9 @@ I adapted a [Worm Web Serial scaper](https://github.com/rhelsing/worm_scraper) t
 
 Download the ebook or run the scraper yourself.
 
+- [Generated .mobi](//jasongross.github.io/unsong_scraper/unsong.mobi)
+- [Generated .epub](//jasongross.github.io/unsong_scraper/unsong.epub)
+
 ##How to run:
 
 1. Clone this project
