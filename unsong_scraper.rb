@@ -10,7 +10,7 @@ toc_page = Nokogiri::HTML(open('http://unsongbook.com/')).css('.pjgm-postcontent
 chapters = Parallel.map_with_index(toc_page.css('a'), :in_threads => 8) do |link, ind|
   index = ind - 1
   url = link['href']
-  next unless url =~ /\/prologue|\/book|\/interlude|\/chapter/
+  next unless url =~ /\/prologue|\/epilogue|\/book|\/interlude|\/chapter/
   unless url.ascii_only?
     url = URI.escape(url)
   end
