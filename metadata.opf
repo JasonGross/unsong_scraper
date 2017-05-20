@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">475</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">8d0765ef-a727-4883-abc7-6c4086b01b36</dc:identifier>
+        <dc:title>Unsong</dc:title>
+        <dc:creator opf:file-as="Alexander, Scott" opf:role="aut">Scott Alexander</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.83.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2016-01-04T06:31:46+00:00</dc:date>
+        <dc:description>&lt;div&gt;&lt;div style="font-family: 'MS Shell Dlg 2', sans-serif; font-size: 12px;"&gt;&lt;span style="font-family: Georgia, 'Bitstream Charter', serif; font-size: 13px; font-style: italic; line-height: 24px; widows: 1;"&gt;Jerusalem is builded as a city that is in the public domain.&lt;/span&gt;&lt;br style=" font-family: Georgia, 'Bitstream Charter', serif; font-size: 13px; font-style: italic; line-height: 24px; widows: 1; "&gt;&lt;span style="border: 0px; margin: 0px; padding: 0px; vertical-align: baseline; font-family: Georgia, 'Bitstream Charter', serif; font-size: 13px; line-height: 24px; widows: 1; background-position: initial initial; background-repeat: initial initial;"&gt;— kingjamesprogramming.tumblr.com&lt;/span&gt;&lt;/div&gt;&lt;div style="font-family: 'MS Shell Dlg 2', sans-serif; font-size: 12px;"&gt;&lt;span style=""&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style="text-align: justify;"&gt;Aaron Smith-Teller works in a kabbalistic sweatshop in Silicon Valley, where he and hundreds of other minimum-wage workers try to brute-force the Holy Names of God. All around him, vast forces have been moving their pieces into place for the final confrontation. An overworked archangel tries to debug the laws of physics. Henry Kissinger transforms the ancient conflict between Heaven and Hell into a US-Soviet proxy war. A Mexican hedge wizard with no actual magic wreaks havoc using the dark art of placebomancy. The Messiah reads a book by Peter Singer and starts wondering exactly what it would mean to do as much good as possible...&lt;/div&gt;&lt;br style=""&gt;&lt;div style="text-align: justify;"&gt;Aaron doesn't care about any of this. He and his not-quite-girlfriend Ana are engaged in something far more important – griping about magical intellectual property law. But when a chance discovery brings them into conflict with mysterious international magic-intellectual-property watchdog UNSONG, they find themselves caught in a web of plots, crusades, and prophecies leading inexorably to the end of the world.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</dc:description>
+        <dc:identifier opf:scheme="MOBI-ASIN">42ec7de2-cf5f-4de0-95f3-56203e8aacf6</dc:identifier>
+        <dc:language>eng</dc:language>
+        <meta content="{&quot;Scott Alexander&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="10" name="calibre:rating"/>
+        <meta content="2017-05-20T04:00:00+00:00" name="calibre:timestamp"/>
+        <meta content="Unsong" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>
